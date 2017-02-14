@@ -11,6 +11,10 @@ public class LogicDropApp {
 		System.out.println(finalresult);
 	}
 	
+	
+	
+	
+	
 	public String Validation(){
 		Scanner reader = new Scanner(System.in); 
 		System.out.println("Enter input number: ");
@@ -19,7 +23,7 @@ public class LogicDropApp {
 		String result = Integer.toString(input);
 		String x = "Logic";
 		String y = "drop";
-		String z = "logicdrop";
+		String z = "Logicdrop";
 		
 		
 		if (((input%3) == 0) && (input < 15)){
@@ -31,6 +35,7 @@ public class LogicDropApp {
 		else if ((input%15) == 0){
 			result = z;
 		}
+		
 		
 		else {
 			result = result;
